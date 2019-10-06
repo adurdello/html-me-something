@@ -12,38 +12,50 @@ header {
     background-color: white;
 }
 
-.resume {
+.resumeCopy {
     list-style: none;
     font-weight: lighter;
 }
 
+
+.interests {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-weight: lighter;
+}
+
 hr {
-    border: 3px dotted #f09cd1;
+    border: 3px dotted #fab0df;
     border-style: none none dashed; 
 }
 
 #toprule {
+    border: 3px #fae172;
+    border-style: none none solid; 
+}
+
+#bottomrule {
     border: 3px #ededed;
     border-style: none none solid; 
 }
 
-main {
+main {    
     margin: auto;
     padding: 0px 20px 0px 20px;
     display: flex;
     flex-direction: row;
 }
 
-
 div {
     background: white;
     margin: 2px;
     width: 20%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .columns {
     background-color: white;
+    padding: 10px;
 }
 
 img {
@@ -91,3 +103,15 @@ footer {
     font-size: 10px;
     text-align: center;
 }
+
+a:link {
+    color: #fab0df;
+    font-weight: bold;
+    }
+    a:visited {
+    color: #999999;
+    }
+    a:hover {
+    color: #fae172;
+    font-weight: bolder;
+    }
